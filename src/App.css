@@ -10,14 +10,40 @@ width:100%;
  width: 100%;
   align-items: center;
   text-align: center !important;
+  color:red;
 }
 .country{
   text-align: center !important;
+}
+.style{
+  /* border: 1px solid; */
+  border:1px solid rgba(95, 61, 61, 0.1);
+  box-shadow: aliceblue;
+  /* border-color:opacity(0.1); */
+  
+    box-shadow: 5px 0px;
+    background-color: #fff;
+    margin-bottom: 13px;
+}
+.info{
+  width: 150px;
+}
+.info img{
+  margin-top: 10px;
+  width: 100%;
+  margin-top: 10;
+ 
+  margin-bottom: 25px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.data{
+  /* font-size:25px; */
+  text-align: left;
+  margin-top:20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,6 +54,7 @@ width:100%;
 
 .App-header {
   background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
